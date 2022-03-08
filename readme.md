@@ -3,24 +3,24 @@ MCP23008 library for arduino based environment.
 example is based on ESP-32 board.
 
 choose mcp23008 address based on logic levels of your hardware addressable pins.
-/* Hardware Address Pins(A0-A2) 
-       A2    A1    A0        7-bit slave address
-      GND   GND   GND              0x20
-      GND   GND   VCC              0x21
-      GND   VCC   GND              0x22
-      GND   VCC   VCC              0x23
-      VCC   GND   GND              0x24
-      VCC   GND   VCC              0x25
-      VCC   VCC   GND              0x26
-      VCC   VCC   VCC              0x27
-*/
+
+
+<img width="288" alt="Capture_1" src="https://user-images.githubusercontent.com/101040017/157226627-4e5a319b-acb2-408d-a0d8-2d7488a84df4.PNG">
 #define MCP23008_ADDRESS_20   0x20
+
+
 #define MCP23008_ADDRESS_21   0x21
+
 #define MCP23008_ADDRESS_22   0x22
+
 #define MCP23008_ADDRESS_23   0x23
+
 #define MCP23008_ADDRESS_24   0x24
+
 #define MCP23008_ADDRESS_25   0x25
+
 #define MCP23008_ADDRESS_26   0x26
+
 #define MCP23008_ADDRESS_27   0x27
 
 
