@@ -24,11 +24,13 @@ example is based on ESP-32 board.
 
 
 *select sda and scl pin number based on the board you choose. (Default SDA-21, SCL-22 for esp32).
+
 #define SDA_PIN 21
 #define SCL_PIN 22
 
 
 *choose configurations as per below:
+
 gpio_config -  GPIO_INPUT  ->  1
                GPIO_OUTPUT ->  0
 
