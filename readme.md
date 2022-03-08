@@ -1,13 +1,12 @@
-MCP23008 library for arduino based environment.
+*****************MCP23008 library for arduino based environment.******************
 
 example is based on ESP-32 board.
 
-choose mcp23008 address based on logic levels of your hardware addressable pins.
+*choose mcp23008 address based on logic levels of your hardware addressable pins.
 
 
 <img width="288" alt="Capture_1" src="https://user-images.githubusercontent.com/101040017/157226627-4e5a319b-acb2-408d-a0d8-2d7488a84df4.PNG">
 #define MCP23008_ADDRESS_20   0x20
-
 
 #define MCP23008_ADDRESS_21   0x21
 
@@ -24,12 +23,12 @@ choose mcp23008 address based on logic levels of your hardware addressable pins.
 #define MCP23008_ADDRESS_27   0x27
 
 
-select sda and scl pin number based on the board you choose. (Default SDA-21, SCL-22 for esp32).
+*select sda and scl pin number based on the board you choose. (Default SDA-21, SCL-22 for esp32).
 #define SDA_PIN 21
 #define SCL_PIN 22
 
 
-choose configurations as per below:
+*choose configurations as per below:
 gpio_config -  GPIO_INPUT  ->  1
                GPIO_OUTPUT ->  0
 
